@@ -1,0 +1,416 @@
+html {
+  line-height: 1.6;
+  /* letter-spacing: 0.4px; */
+  font-family: "Kaiti SC", Georgia, serif;
+  font-size: 20px;
+  color: #1a1a1a;
+  background-color: #eee;
+}
+p.cn {
+  letter-spacing: 0.5px;
+  /* font-family: "Kaiti SC", Georgia, serif; */
+}
+.header {
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0px;
+  left: -2em;
+  /* Position the navbar at the top of the page */
+  width: 120%;
+  /* Full width */
+  /* border-bottom: 1px solid #752828; */
+  background: url(images/background.jpg) #752828;
+}
+
+.header h1{
+  color: aliceblue;
+  text-align: center;
+}
+
+img {
+  border: 2px solid #999;
+}
+.toc {
+  font-size: 80%;
+  width: 25%;
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-left: 20px;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.contents {
+  margin-top: 100px;
+  margin-left: 30%;
+  padding-top: 100px;
+  width: 65%;
+}
+
+.biblioid {
+  display: block;
+  font-size: 0.64516em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.5em;
+  text-align: left;
+  text-indent: 0
+  }
+.calibre {
+  display: block;
+  font-size: 1.29167em;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 5pt;
+  margin-right: 5pt;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0
+  }
+.calibre1 {
+  height: auto;
+  line-height: 1.2;
+  width: auto
+  }
+.calibre2 {
+  font-weight: bold;
+  line-height: 1.2
+  }
+.calibre3 {
+  font-style: italic
+  }
+.calibre4 {
+  font-weight: bold
+  }
+.calibre5 {
+  display: block
+  }
+.calibre6 {
+  text-decoration: none
+  }
+.calibre7 {
+  line-height: 1.2;
+  text-decoration: none
+  }
+.calibre8 {
+  font-size: 0.83333em;
+  line-height: 1.2;
+  vertical-align: super
+  }
+.calibre9 {
+  font-size: 0.75em;
+  line-height: 1.2;
+  vertical-align: super
+  }
+.calibre10 {
+  display: table-column-group;
+  line-height: 1.2
+  }
+.calibre11 {
+  display: table-header-group;
+  line-height: 1.2;
+  vertical-align: middle
+  }
+.calibre12 {
+  display: table-row;
+  line-height: 1.2;
+  vertical-align: inherit
+  }
+.calibre13 {
+  display: table-row-group;
+  line-height: 1.2;
+  vertical-align: middle
+  }
+.calibre14 {
+  font-size: 1em;
+  line-height: 1.2;
+  vertical-align: super
+  }
+.calibre15 {
+  display: block;
+  line-height: 1.2;
+  page-break-after: always
+  }
+.cct {
+  display: block;
+  font-size: 0.77419em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
+  text-indent: 0
+  }
+.cen {
+  display: table-cell;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  text-align: center;
+  vertical-align: inherit
+  }
+.cen1 {
+  display: table-cell;
+  line-height: 1.2;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  text-align: center;
+  vertical-align: inherit
+  }
+.center {
+  display: block;
+  text-align: center
+  }
+.center_aa {
+  display: block;
+  font-size: 0.77419em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2em;
+  text-align: center
+  }
+.chapter {
+  display: block;
+  line-height: 1.2
+  }
+.cover {
+  line-height: 1.2
+  }
+.cpn {
+  display: block;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2em;
+  text-align: right
+  }
+.ct {
+  display: block;
+  font-size: 1.41935em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2em;
+  text-align: left
+  }
+.ctl {
+  display: block;
+  font-size: 1.41935em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2em;
+  text-indent: 0
+  }
+.ext {
+  display: block;
+  font-size: 0.64516em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  text-align: justify
+  }
+.extr {
+  display: block;
+  font-size: 0.64516em;
+  margin-bottom: 1em;
+  margin-left: 7em;
+  margin-right: 7em;
+  margin-top: 1em;
+  text-align: justify
+  }
+.extv {
+  display: block;
+  font-size: 0.64516em;
+  margin-bottom: 0;
+  margin-left: 3em;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: justify;
+  text-indent: -2em
+  }
+.h {
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0
+  }
+.h1 {
+  display: block;
+  font-size: 0.77419em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2em;
+  text-align: left;
+  text-indent: 0
+  }
+.h1c {
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
+  text-align: center;
+  text-indent: 0
+  }
+.image {
+  display: block;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: center
+  }
+.isbn {
+  display: block;
+  font-size: 0.64516em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: left;
+  text-indent: 0
+  }
+.lef {
+  display: table-cell;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  text-align: left;
+  vertical-align: inherit
+  }
+.lef1 {
+  display: table-cell;
+  line-height: 1.2;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  text-align: left;
+  vertical-align: inherit
+  }
+.legalnotice {
+  display: block;
+  font-size: 0.64516em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.5em;
+  text-align: justify;
+  text-indent: 0
+  }
+.libraryofcongress {
+  display: block;
+  font-size: 0.64516em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: justify;
+  text-indent: 0
+  }
+.noind_aa {
+  display: block;
+  font-size: 0.77419em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
+  text-align: justify;
+  text-indent: 0
+  }
+.ntx {
+  display: block;
+  font-size: 0.64516em;
+  margin-bottom: 0.2em;
+  margin-left: 2em;
+  margin-right: 0;
+  margin-top: 1em;
+  text-align: justify;
+  border-left: 1px solid #111;
+  padding-left: 1em;
+  /* text-indent: 1em */
+  }
+.table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  display: table;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-indent: 0
+  }
+.tx {
+  display: block;
+  font-size: 0.77419em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
+  /* text-align: justify */
+  }
+.tx1 {
+  display: block;
+  font-size: 0.77419em;
+  margin-bottom: 0.2em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
+  /* text-align: justify; */
+  /* text-indent: 1em; */
+  }
+.txc {
+  display: block;
+  font-size: 1.29032em;
+  line-height: 1.2;
+  margin-bottom: 0.2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0.2em;
+  text-align: center;
+  text-indent: 1em
+  }
+.txc1 {
+  display: block;
+  font-size: 0.77419em;
+  margin-bottom: 0.2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0.2em;
+  text-align: center;
+  text-indent: 1em
+  }
+
+@page {
+  margin-bottom: 5pt;
+  margin-top: 5pt
+  }
+
