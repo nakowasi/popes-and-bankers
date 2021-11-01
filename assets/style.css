@@ -19,7 +19,7 @@ p.cn {
   width: 120%;
   /* Full width */
   /* border-bottom: 1px solid #752828; */
-  background: url(images/background.jpg) #752828;
+  background: url(assets/background.jpg) #752828;
 }
 
 .header h1{
